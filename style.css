@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+    color: white;
+}
+.main-content {
+margin: 0 auto;
+width: 70%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+} 
+
+.social-icons {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.about-us {
+    display: flex;
+    gap: 40px;
+}
+
+.about-title,
+.about-content {
+    width: 50%;
+}
+
+.chat-now {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.statement {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.line {
+    margin: 7%;
+}
+
+.statement-text {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.arrow {
+    margin: 2%;
+}
+
+.portfolio {
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.pictures1 img {
+    display: inline-flex;
+    width: 250px;
+    height: 250px;
+   margin: 0 20px;
+    border-radius: 20%;
+}
+
+.pictures2 img {
+    display: inline-flex;
+    width: 250px;
+    height: 250px;
+    margin: 0 20px;
+    border-radius: 20%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.button button {
+    background: black;
+    color: white;
+    padding: 20px 80px;
+    border-color: white;
+}
+
+.conclusion {
+    display: flex;
+    gap: 40px;
+}
+
+.signature img {
+    width: 200px;
+    height: 150px;
+    margin: 20px 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.close-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.location {
+    width: 20%;
+}
+
+.lastline {
+    width: 20%;
+}
+
+.sampletext {
+    width: 25%;
+    text-align: center;
+}
+
+.closing-section {
+    width: 100%;
+    height: 50vh;
+    background: grey;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.closing-section p {
+   text-align: center;
+    margin: 0 35%;
+    width: 30%;
+    padding: 40px 0 60px 0;
+}
